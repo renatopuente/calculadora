@@ -39,6 +39,10 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  background: #777;
+}
+
 .calculator .operator {
   padding: 10px;
   font-size: 18px;
@@ -48,13 +52,25 @@ button {
   cursor: pointer;
 }
 
-button:hover {
-  background: #777;
+.calculator .operator:hover {
+  padding: 10px;
+  font-size: 18px;
+  background: rgb(101, 83, 10);
+  border: none;
+  color: #fff;
+  cursor: pointer;
 }
 
-.equal {
+
+.calculator .equal {
   grid-column: span 3;
   background: #4caf50;
+  color: #fff;
+}
+
+.calculator .equal:hover {
+  grid-column: span 3;
+  background: #245626;
   color: #fff;
 }
 
