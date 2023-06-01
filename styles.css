@@ -1,13 +1,27 @@
+body {
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
 .calculator {
   width: 200px;
-  background: #f2f2f2;
+  background: #333;
   padding: 10px;
+  border-radius: 5px;
 }
 
 #result {
   width: 100%;
   margin-bottom: 10px;
   padding: 5px;
+  background: #444;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
 }
 
 .buttons {
@@ -19,13 +33,14 @@
 button {
   padding: 10px;
   font-size: 18px;
-  background: #e0e0e0;
+  background: #555;
   border: none;
+  color: #fff;
   cursor: pointer;
 }
 
 button:hover {
-  background: #d0d0d0;
+  background: #777;
 }
 
 #calculate {
