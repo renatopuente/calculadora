@@ -2,7 +2,7 @@
 const result = document.getElementById('result');
 
 // Obtener todos los botones de números y operadores
-const buttons = document.querySelectorAll('.number, .operator');
+const buttons = document.querySelectorAll('.number, .operator, .equal');
 
 // Adjuntar oyentes de eventos de clic a los botones
 buttons.forEach(button => {
