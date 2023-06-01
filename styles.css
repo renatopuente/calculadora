@@ -73,7 +73,7 @@ button:hover {
 
 @media (max-width: 767px) {
   .calculator {
-    width: 80%;
+    width: 500px;
     background: #333;
     padding: 10px;
     border-radius: 5px;
@@ -82,7 +82,7 @@ button:hover {
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .calculator {
-    width: 60%;
+    width: 800px;
     background: #333;
     padding: 10px;
     border-radius: 5px;
