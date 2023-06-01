@@ -17,11 +17,13 @@ for (let i = 0; i < numberButtons.length; i++) {
 // Adjuntar oyente de evento de clic al botón de calcular
 calculateButton.addEventListener('click', function() {
   const expression = result.value;
-
-  try {
-    const resultValue = eval(expression);
-    result.value = resultValue;
-  } catch (error) {
-    result.value = 'Error';
+  
+  if (expression) {
+    try {
+      const resultValue = eval(expression);
+      result.value = resultValue;
+    } catch (error) {
+      result.value = 'Error';
+    }
   }
 });
