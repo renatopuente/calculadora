@@ -13,6 +13,7 @@ body {
   align-items: center;
   font-size: larger;
   color: #c4bcb5;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -83,6 +84,7 @@ button:hover {
   align-items: center;
   font-size: larger;
   color: #c4bcb5;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
