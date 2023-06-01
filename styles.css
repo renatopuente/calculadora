@@ -7,6 +7,14 @@ body {
   margin: 0;
 }
 
+.texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  color: #c4bcb5;
+}
+
 
 #result {
   width: 98%;
@@ -28,7 +36,7 @@ body {
 
 .operando {
   display: grid;
-  grid-template-columns: repeat(4, 2fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 5px;
   font-size: 40px;
 }
@@ -40,7 +48,7 @@ button:hover {
 
 .calculator .operator {
   padding: 10px;
-  font-size: 18px;
+  font-size: 40px;
   background: rgb(210, 171, 14);
   border: none;
   color: #fff;
@@ -91,8 +99,8 @@ button:hover {
   }
 
   .operando{
-    padding: 16px;
-    font-size: 40px;
+    margin-top: 16px;
+    font-size: 80px;
   }
 }
 
