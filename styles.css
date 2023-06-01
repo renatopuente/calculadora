@@ -69,7 +69,7 @@ button:hover {
 }
 
 
-/*media@*/
+/*media@ MOBILE*/
 
 @media (max-width: 767px) {
   .calculator {
@@ -79,7 +79,18 @@ button:hover {
     padding: 10px;
     border-radius: 5px;
   }
+
+  button {
+    padding: 16px;
+    font-size: 20px;
+    background: #555;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
 }
+
+/*media@ TABLET*/
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .calculator {
@@ -90,6 +101,8 @@ button:hover {
     border-radius: 5px;
   }
 }
+
+/*media@ DESKTOP*/
 
 @media (min-width: 1024px) {
   .calculator {
