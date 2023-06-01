@@ -1,5 +1,5 @@
 // Obtener el elemento de entrada de resultado
-const result = document.getElementById('result');
+const result = document.getElementById('calculate');
 
 // Obtener todos los botones de números y operadores
 const buttons = document.querySelectorAll('.number, .operator');
