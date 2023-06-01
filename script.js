@@ -1,29 +1,25 @@
 // Obtener el elemento de entrada de resultado
 const result = document.getElementById('result');
 
-// Obtener todos los botones de números
-const numberButtons = document.getElementsByClassName('number');
+// Obtener todos los botones de números y operadores
+const buttons = document.querySelectorAll('.number, .operator');
 
-// Obtener el botón de calcular
-const calculateButton = document.getElementById('operator');
+// Adjuntar oyentes de eventos de clic a los botones
+buttons.forEach(button => {
+  button.addEventListener('click', function() {
+    const value = this.innerText;
 
-// Adjuntar oyentes de eventos de clic a los botones de números
-for (let i = 0; i < numberButtons.length; i++) {
-  numberButtons[i].addEventListener('click', function() {
-    result.value += this.innerText;
-  });
-}
-
-// Adjuntar oyente de evento de clic al botón de calcular
-calculateButton.addEventListener('click', function() {
-  const expression = result.value;
-  
-  if (expression) {
-    try {
-      const resultValue = eval(expression);
-      result.value = resultValue;
-    } catch (error) {
-      result.value = 'Error';
+    if (value === '=') {
+      try {
+        const resultValue = eval(result.value);
+        result.value = resultValue;
+      } catch (error) {
+        result.value = 'Error';
+      }
+    } else if (value === 'C') {
+      result.value = '';
+    } else {
+      result.value += value;
     }
-  }
+  });
 });
