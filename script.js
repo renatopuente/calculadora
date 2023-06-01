@@ -1,8 +1,8 @@
 // Obtener el elemento de entrada de resultado
 const result = document.getElementById('result');
 
-// Obtener todos los botones de números y operadores
-const buttons = document.querySelectorAll('.number, .operator, .equal');
+// Obtener todos los botones de números, operadores y limpiar
+const buttons = document.querySelectorAll('.number, .operator, .equal, .clear');
 
 // Adjuntar oyentes de eventos de clic a los botones
 buttons.forEach(button => {
