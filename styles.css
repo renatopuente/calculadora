@@ -39,6 +39,15 @@ button {
   cursor: pointer;
 }
 
+button > operator {
+  padding: 10px;
+  font-size: 18px;
+  background: rgb(210, 171, 14);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
 button:hover {
   background: #777;
 }
