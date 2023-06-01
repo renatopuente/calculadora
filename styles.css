@@ -73,8 +73,8 @@ button:hover {
 
 @media (max-width: 767px) {
   .calculator {
-    width: 500px;
-    height: 1000px;
+    width: 80vw;
+    height: auto;
     background: #333;
     padding: 10px;
     border-radius: 5px;
