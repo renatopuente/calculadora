@@ -39,7 +39,7 @@ button {
   cursor: pointer;
 }
 
-button > operator {
+button > .operator {
   padding: 10px;
   font-size: 18px;
   background: rgb(210, 171, 14);
