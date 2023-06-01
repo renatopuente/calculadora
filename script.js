@@ -5,7 +5,7 @@ const result = document.getElementById('result');
 const numberButtons = document.getElementsByClassName('number');
 
 // Obtener el botón de calcular
-const calculateButton = document.getElementById('calculate');
+const calculateButton = document.getElementById('operator');
 
 // Adjuntar oyentes de eventos de clic a los botones de números
 for (let i = 0; i < numberButtons.length; i++) {
