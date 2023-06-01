@@ -63,7 +63,7 @@ button:hover {
 
 /*media@ MOBILE*/
 
-@media (max-width: 900px) {
+@media (max-width: 1500px) {
   .calculator {
     width: 80vw;
     height: auto;
@@ -84,7 +84,7 @@ button:hover {
 
 /*media@ TABLET*/
 
-@media (min-width: 901px) and (max-width: 1023px) {
+@media (min-width: 1501px) and (max-width: 1700px) {
   .calculator {
     width: 50vw;
     height: auto;
@@ -105,7 +105,7 @@ button:hover {
 
 /*media@ DESKTOP*/
 
-@media (min-width: 1024px) {
+@media (min-width: 1701px) {
   .calculator {
     width: 20vw;
     height: auto;
