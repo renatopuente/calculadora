@@ -73,7 +73,7 @@ button:hover {
 }
 
 .calculator .equal:hover {
-  grid-column: span 2;
+  grid-column: span 3;
   background: #245626;
   color: #fff;
 }
