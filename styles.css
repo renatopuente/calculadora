@@ -68,13 +68,13 @@ button:hover {
 
 .calculator .equal {
   grid-column: span 3;
-  background: #2d3142;
+  background: #4f5d75;
   color: #fff;
 }
 
 .calculator .equal:hover {
   grid-column: span 3;
-  background: #1d233d;
+  background: #2d3142;
   color: #fff;
 }
 
