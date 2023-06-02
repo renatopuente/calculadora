@@ -58,7 +58,7 @@ button:hover {
 
 .calculator .operator:hover {
   padding: 10px;
-  font-size: 60px;
+  font-size: 32px;
   background: #8a5741;
   border: none;
   color: #fff;
@@ -79,7 +79,7 @@ button:hover {
 }
 
 .info {
-  display: flex;
+  display: inline-block;
   justify-content: center;
   align-items: center;
   font-size: larger;
