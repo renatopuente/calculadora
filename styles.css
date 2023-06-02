@@ -103,7 +103,7 @@ button:hover {
 
 /*media@ MOBILE*/
 
-@media (max-width: 1500px) {
+@media (max-width: 844px) {
   .calculator {
     width: 80vw;
     height: auto;
@@ -125,7 +125,7 @@ button:hover {
     margin-top: 16px;
     font-size: 80px;
     display: grid;
-    grid-template-columns: repeat(4, 2fr);
+    grid-template-columns: repeat(5, 2fr);
     grid-gap: 5px;
     font-size: 40px;
   }
@@ -133,7 +133,7 @@ button:hover {
 
 /*media@ TABLET*/
 
-@media (min-width: 1501px) and (max-width: 1700px) {
+@media (min-width: 844px) and (max-width: 1399px) {
   .calculator {
     width: 50vw;
     height: auto;
@@ -163,7 +163,7 @@ button:hover {
 
 /*media@ DESKTOP*/
 
-@media (min-width: 1701px) {
+@media (min-width: 1440px) {
   .calculator {
     width: 20vw;
     height: auto;
