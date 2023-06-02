@@ -50,7 +50,7 @@ button:hover {
 .calculator .operator {
   padding: 10px;
   font-size: 40px;
-  background: rgb(210, 171, 14);
+  background: #ef8354;
   border: none;
   color: #fff;
   cursor: pointer;
@@ -59,7 +59,7 @@ button:hover {
 .calculator .operator:hover {
   padding: 10px;
   font-size: 18px;
-  background: rgb(101, 83, 10);
+  background: #8a5741;
   border: none;
   color: #fff;
   cursor: pointer;
@@ -68,13 +68,13 @@ button:hover {
 
 .calculator .equal {
   grid-column: span 3;
-  background: #4caf50;
+  background: #2d3142;
   color: #fff;
 }
 
 .calculator .equal:hover {
   grid-column: span 3;
-  background: #245626;
+  background: #1d233d;
   color: #fff;
 }
 
@@ -133,6 +133,11 @@ button:hover {
     color: #fff;
     cursor: pointer;
   }
+
+  .operando{
+    margin-top: 16px;
+    font-size: 80px;
+  }
 }
 
 /*media@ DESKTOP*/
@@ -153,5 +158,10 @@ button:hover {
     border: none;
     color: #fff;
     cursor: pointer;
+  }
+
+  .operando{
+    margin-top: 16px;
+    font-size: 80px;
   }
 }
