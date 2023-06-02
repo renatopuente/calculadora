@@ -1,3 +1,14 @@
+* > a {
+  color: #ef8354;
+  text-decoration: none;
+}
+
+* > a:hover {
+  color: #ef8354;
+  text-decoration: none;
+}
+
+
 body {
   background: #222;
   display: flex;
@@ -74,14 +85,16 @@ button:hover {
 
 .calculator .equal:hover {
   grid-column: span 3;
-  background: #2d3142;
+  background: #2e3f5c;
   color: #fff;
 }
 
 .info {
-  display: inline-block;
+  margin-top: 32px;
+  display: block;
   justify-content: center;
   align-items: center;
+  text-align: center;
   font-size: larger;
   color: #c4bcb5;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
